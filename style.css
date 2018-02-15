@@ -1,0 +1,282 @@
+#ethan {
+  text-align: center !important;
+
+}
+#dude {
+  text-align: center !important;
+
+}
+
+.help {
+  text-align: center !important;
+}
+body {
+  border: 5px solid;
+  border-color: #333;
+  background-color: #333;
+}
+p {
+  background-color: #333;
+  color: white;
+}
+
+.image {
+  width: 400px;
+  border: 2px solid;
+  border-color: aqua;
+  margin: 10px;
+
+}
+
+ul {
+  border: 2px solid;
+  border-color: red;
+
+}
+
+a {
+  color: coral;
+  background: rgb(0,0,0); /* fallback color */
+  background: rgba(0,0,0,0.7);
+  background: #333;
+}
+image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+  width: 400px;
+  border: 2px solid;
+  border-color: aqua;
+}
+
+h2 { 
+  text-align: ;
+  position: absolute;
+  top: 150px;
+  left: 48;
+  width: 100%;
+  right: 600;
+}
+
+h2 span {
+  color: white;
+  font: bold 50px/45px Helvetica, Sans-Shrif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+h1 {
+  color: limegreen;
+}
+
+h3 {
+  color: lime;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #333;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+ol>li span {
+  float:left;
+}
+
+ol>li {
+  min-height: 100px;
+
+}
+
+.classes {
+  background-color:aqua;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height:40px;
+  text-align: center;
+  text-decoration: line-through;
+
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.channel {
+  padding: 10px;
+  border: 2px solid;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+.hai {
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  position: relative;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 7px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+h2{
+  text-align:center;
+  text-align: top;
+}
+
+.rainbow {
+
+  -webkit-animation: rainbow 1s infinite; 
+
+
+  -ms-animation: rainbow 1s infinite;
+
+
+  animation: rainbow 1s infinite; 
+}
+
+
+@-webkit-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
+
+@-ms-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
+
+
+@keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
+
+
+.rainbow1 {
+
+  -webkit-animation: rainbow 1s infinite; 
+
+
+  -ms-animation: rainbow 1s infinite;
+
+
+  animation: rainbow 1s infinite; 
+}
+
+
+@-webkit-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
+
+@-ms-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
+
+
+@keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}	
+}
