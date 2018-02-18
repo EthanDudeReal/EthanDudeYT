@@ -1,0 +1,283 @@
+h3 {
+  color:lime;
+}
+a:hover {
+  background-color: #333;
+  color:white
+}
+a {
+  color: #333;
+  padding:20px ;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+
+
+#image2 {
+  width: 50px;
+  Height: 50px;
+
+
+}
+#image1 {
+
+  width: 50px;
+  Height:50px;
+  border-color:black;
+}
+.image {
+  border: 2px solid;
+  border-color: aqua;
+  margin: 10px;
+  width: 400px;
+}
+
+body {
+  border: 5px solid;
+  border-color: #333;
+  background-color: #333;
+}
+p {
+  color: white;
+  text-align-last: left;
+  width: 1000;
+}
+
+h1 { 
+  color: limegreen;
+  font-size: 20px;
+  text-align-last: 
+}
+
+
+
+
+
+
+image {
+  position:left;
+  width: 100%; /* for IE 6 */
+}
+
+h2 { 
+  text-align: ;
+  position: absolute;
+  top: 150;
+  left: 90;
+  width: 100%;
+}
+
+h2 span {
+  color: white;
+  font: bold 50px/45px Helvetica, Sans-Shrif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+
+}
+
+
+
+
+.dropbtn {
+  background-color: #333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  float:right;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #333;
+}
+
+
+.topnav {
+  background-color: #333;
+
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+
+
+.div-that-you want-to-stand-out { 
+  box-shadow: 0 0 1em 1em #ccc;
+  background-color: aqua;
+}
+
+.countdown {
+  padding: 9px solid #432;
+  color: black;
+  border: 3px solid;
+  border-color: red;
+  background-color: #333;
+  text-decoration: underline overline ;
+  text-decoration-color: orangered;
+
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+#canv {
+  align-content:center;
+  align-self: center;
+  align-items: center;
+}
+body {
+  margin:0px;
+  font-family: sans-serif;
+}
+#container {
+  border:1px solid blue;
+  border-radius:5px;
+  width:330px;
+  height:500px;
+  position:relative;
+}
+#canv {
+  display:block;
+  margin:5px auto;
+  border:1px solid black;
+
+}
+button{
+  position:absolute;
+  width:80px;
+  height:40px;
+  font-size:15px;
+  font-weight:900;
+  text-align:center;
+  border-radius:5px;
+  outline:none;
+}
+.navs{
+  border:1px solid blue;
+}
+#left {
+  top:400px;
+  left:75px;
+}
+#right {
+  top:400px;
+  left:165px;
+}
+#down {
+  top:450px;
+  left:120px;
+}
+#rotate {
+  top:350px;
+  left:120px;
+}
+#alert {
+  display:none;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 330px;
+  height:500px;  
+  background:rgba(255,255,255,0.5);
+}
+#over {
+  border:3px solid lightgray;
+  border-radius:5px;
+  width:150px;
+  height:100px;
+  margin:70px auto 0px auto;
+  font-size:25px;
+  font-weight:900;
+  text-align:center;
+  color:#444;
+  padding:10px;
+  background:white;
+}
+#reset {
+  position:static;
+  display:block;
+  margin: 10px auto;
+
+  color:#444;
+
+}
